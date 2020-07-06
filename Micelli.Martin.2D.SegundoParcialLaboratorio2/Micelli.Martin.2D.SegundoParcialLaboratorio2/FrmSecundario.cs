@@ -683,49 +683,5 @@ namespace Micelli.Martin._2D.SegundoParcialLaboratorio2
                 this.hilo2.Abort();
             }
         }
-
-        private void btnProbarCosas_Click(object sender, EventArgs e)
-        {
-            //---------->PROBAR SERIALIZAR Y DESERIALIZAR ALUMNO EN XML
-            /*
-            Alumno a = new Alumno("Aristobulo", "DelValle", 5, 39123456, "Calle false 123", 1, "7");
-            a.NotaFinal = 9;
-
-            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
-            string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".xml";
-
-            ArchivoXml<Alumno> serializador = new ArchivoXml<Alumno>();
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + nombreArchivo;
-            serializador.Guardar(a, path);
-
-            Alumno b = serializador.Leer(path);
-
-            MessageBox.Show(b.ToString());
-            */
-
-            //---------->PRUEBA SERIALIZAR Y DESERIALIZAR ALUMNO EN BINARIO
-            /*
-            Alumno a = new Alumno("Juan", "Perez", 5, 39123456, "Calle false 123", 1, "7");
-            a.NotaFinal = 9;
-
-            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
-            string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".bin";
-
-            ArchivoBin<Alumno> serializador = new ArchivoBin<Alumno>();
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + nombreArchivo;
-            serializador.Guardar(a, path);
-
-            Alumno b = serializador.Leer(path);
-
-            MessageBox.Show(b.ToString());
-            */
-
-            //---------->PRUEBA METODO DE EXTENSION BACKEAR DOCENTES
-            /*
-            ArchivoXml<Alumno> serializador = new ArchivoXml<Alumno>();
-            serializador.BackearDocentes();
-            this.btnProbarCosas.Enabled = false;
-            */
-        }
     }
 }

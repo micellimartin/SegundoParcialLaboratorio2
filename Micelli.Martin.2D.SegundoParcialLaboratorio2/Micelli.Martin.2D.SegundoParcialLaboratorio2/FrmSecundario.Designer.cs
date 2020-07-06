@@ -46,7 +46,6 @@
             this.gbEstadoRecreo = new System.Windows.Forms.GroupBox();
             this.lblTiempoEnEvaluacion = new System.Windows.Forms.Label();
             this.gbEstadoTiempo = new System.Windows.Forms.GroupBox();
-            this.btnProbarCosas = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTablaEvaluaciones)).BeginInit();
             this.gbEstadoRecreo.SuspendLayout();
             this.gbEstadoTiempo.SuspendLayout();
@@ -220,23 +219,12 @@
             this.gbEstadoTiempo.TabIndex = 29;
             this.gbEstadoTiempo.TabStop = false;
             // 
-            // btnProbarCosas
-            // 
-            this.btnProbarCosas.Location = new System.Drawing.Point(584, 118);
-            this.btnProbarCosas.Name = "btnProbarCosas";
-            this.btnProbarCosas.Size = new System.Drawing.Size(118, 51);
-            this.btnProbarCosas.TabIndex = 30;
-            this.btnProbarCosas.Text = "Probar cosas";
-            this.btnProbarCosas.UseVisualStyleBackColor = true;
-            this.btnProbarCosas.Click += new System.EventHandler(this.btnProbarCosas_Click);
-            // 
             // FrmSecundario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(800, 688);
-            this.Controls.Add(this.btnProbarCosas);
             this.Controls.Add(this.gbEstadoTiempo);
             this.Controls.Add(this.gbEstadoRecreo);
             this.Controls.Add(this.lblEvaluacionEnProceso);
@@ -290,6 +278,5 @@
         private System.Windows.Forms.GroupBox gbEstadoRecreo;
         private System.Windows.Forms.Label lblTiempoEnEvaluacion;
         private System.Windows.Forms.GroupBox gbEstadoTiempo;
-        private System.Windows.Forms.Button btnProbarCosas;
     }
 }

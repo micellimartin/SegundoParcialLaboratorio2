@@ -21,7 +21,6 @@ namespace PruebasUnitarias
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + nombreArchivo;
 
             //Act
-            //Hay que poner esto adentro de un try cacth
             serializador.Guardar(a, path);
 
             //Assert
@@ -42,7 +41,7 @@ namespace PruebasUnitarias
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + nombreArchivo;
 
             //Act
-            //Hay que poner esto adentro de un try cacth
+            //Primero lo serializo y despues lo deserializo
             serializador.Guardar(a, path);
             b = serializador.Leer(path);
 
@@ -63,8 +62,6 @@ namespace PruebasUnitarias
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + nombreArchivo;
 
             //Act
-            //Hay que poner esto adentro de un try cacth
-
             serializador.Guardar(a, path);
 
             //Assert
@@ -72,7 +69,7 @@ namespace PruebasUnitarias
         }
 
         [TestMethod]
-        public void DeserializarAlumnoBin()
+        public void TestDeserializarAlumnoBin()
         {
             //Arrange
             Alumno a = new Alumno("Romina", "Martinez", 5, 39123456, "Calle false 123", 1, "7");
@@ -85,12 +82,54 @@ namespace PruebasUnitarias
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + nombreArchivo;
 
             //Act
-            //Hay que poner esto adentro de un try cacth
+            //Primero serializo y despues deserializo
             serializador.Guardar(a, path);
             b = serializador.Leer(path);
 
             //Assert
             Assert.IsTrue(a == b);
+        }
+
+        [TestMethod]
+        public void TestDeserializarAlumnoBinAtributos()
+        {
+            //Arrange
+            Alumno a = new Alumno("Eduard", "Jimenez", 5, 39123456, "Calle false 123", 1, "7");
+            Alumno b = null;
+
+            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
+            string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".bin";
+
+            ArchivoBin<Alumno> serializador = new ArchivoBin<Alumno>();
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + nombreArchivo;
+
+            //Act
+            //Primero serializo y despues deserializo
+            serializador.Guardar(a, path);
+            b = serializador.Leer(path);
+
+            //Assert
+            Assert.IsTrue(a.IdAlumno == b.IdAlumno);     
+            Assert.IsTrue(a.Nombre == b.Nombre);
+            Assert.IsTrue(a.Apellido == b.Apellido);
+            Assert.IsTrue(a.Edad == b.Edad);
+            Assert.IsTrue(a.Dni == b.Dni);
+            Assert.IsTrue(a.Direccion == b.Direccion);
+            Assert.IsTrue(a.Responsable == b.Responsable);
+        }
+
+        [TestMethod]
+        public void TestMetodoExtensionBackearDocentes()
+        {
+            //Arrange
+            ArchivoXml<Alumno> instanciaArchivoXml = new ArchivoXml<Alumno>();
+            string ubicacionBackUp = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\DocentesBackUp.Xml";
+
+            //Act
+            instanciaArchivoXml.BackearDocentes();
+
+            //Assert
+            Assert.IsTrue(File.Exists(ubicacionBackUp));
         }
     }
 }

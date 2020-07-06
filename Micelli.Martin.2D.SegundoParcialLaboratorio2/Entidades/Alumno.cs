@@ -85,7 +85,7 @@ namespace Entidades
 
         public static bool operator ==(Alumno a1, Alumno a2)
         {
-            return a1.idAlumno == a2.idAlumno;
+            return (a1.idAlumno == a2.idAlumno && a1.Nombre == a2.Nombre && a1.Apellido == a2.Apellido);
         }
 
         public static bool operator !=(Alumno a1, Alumno a2)
