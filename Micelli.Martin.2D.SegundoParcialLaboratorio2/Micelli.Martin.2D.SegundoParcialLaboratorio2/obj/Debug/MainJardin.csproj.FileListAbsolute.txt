@@ -1,0 +1,14 @@
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\bin\Debug\Micelli.Martin.2D.SegundoParcialLaboratorio2.exe.config
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\bin\Debug\Micelli.Martin.2D.SegundoParcialLaboratorio2.exe
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\bin\Debug\Micelli.Martin.2D.SegundoParcialLaboratorio2.pdb
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\obj\Debug\MainJardin.csprojAssemblyReference.cache
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\obj\Debug\Micelli.Martin._2D.SegundoParcialLaboratorio2.Properties.Resources.resources
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\obj\Debug\MainJardin.csproj.GenerateResource.cache
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\obj\Debug\MainJardin.csproj.CoreCompileInputs.cache
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\obj\Debug\Micelli.Martin.2D.SegundoParcialLaboratorio2.exe
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\obj\Debug\Micelli.Martin.2D.SegundoParcialLaboratorio2.pdb
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\obj\Debug\Micelli.Martin._2D.SegundoParcialLaboratorio2.FrmPrincipal.resources
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\bin\Debug\Entidades.dll
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\bin\Debug\Entidades.pdb
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\obj\Debug\MainJardin.csproj.CopyComplete
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\obj\Debug\Micelli.Martin._2D.SegundoParcialLaboratorio2.FrmSecundario.resources

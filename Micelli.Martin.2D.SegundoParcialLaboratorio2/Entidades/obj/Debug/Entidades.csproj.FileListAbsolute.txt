@@ -1,0 +1,6 @@
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Entidades\bin\Debug\Entidades.dll
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Entidades\obj\Debug\Entidades.dll
+C:\Users\micel\Desktop\SegundoParcialLaboratorio2\Micelli.Martin.2D.SegundoParcialLaboratorio2\Entidades\obj\Debug\Entidades.pdb
