@@ -582,7 +582,7 @@ namespace Micelli.Martin._2D.SegundoParcialLaboratorio2
         /// <param name="a">Alumno a serializar</param>
         private void SerializarAlumnoAprobado(Alumno a)
         {
-            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
+            string fecha = DateTime.Now.ToString("dd_MM_yyyy");
             string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".xml";
 
             ArchivoXml<Alumno> serializador = new ArchivoXml<Alumno>();
@@ -606,7 +606,7 @@ namespace Micelli.Martin._2D.SegundoParcialLaboratorio2
         /// <param name="a">Alumno a serializar</param>
         private void SerializarAlumnoDesaprobado(Alumno a)
         {
-            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
+            string fecha = DateTime.Now.ToString("dd_MM_yyyy");
             string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".xml";
 
             ArchivoXml<Alumno> serializador = new ArchivoXml<Alumno>();

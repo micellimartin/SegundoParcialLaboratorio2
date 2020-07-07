@@ -18,7 +18,7 @@ namespace Entidades
         /// </summary>
         static JardinSql()
         {
-            string conexionString = @"Data Source= .\SQLEXPRESS; Initial Catalog= JardinUtn; Integrated Security= True";
+            string conexionString = @"Data Source= .\SQLEXPRESS; Initial Catalog= JardinUtnClon; Integrated Security= True";
             conexion = new SqlConnection(conexionString);
             comando = new SqlCommand();
             comando.Connection = conexion;

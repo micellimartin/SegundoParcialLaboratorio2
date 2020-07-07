@@ -14,7 +14,7 @@ namespace PruebasUnitarias
             //Arrange
             Alumno a = new Alumno("Juan", "Sarmiento", 5, 39123456, "Calle false 123", 1, "7");
 
-            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
+            string fecha = DateTime.Now.ToString("dd_MM_yyyy");
             string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".xml";
 
             ArchivoXml<Alumno> serializador = new ArchivoXml<Alumno>();
@@ -34,7 +34,7 @@ namespace PruebasUnitarias
             Alumno a = new Alumno("Pepito", "Peposo", 5, 39123456, "Calle false 123", 1, "7");
             Alumno b = null;
 
-            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
+            string fecha = DateTime.Now.ToString("dd_MM_yyyy");
             string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".xml";
 
             ArchivoXml<Alumno> serializador = new ArchivoXml<Alumno>();
@@ -55,7 +55,7 @@ namespace PruebasUnitarias
             //Arrange
             Alumno a = new Alumno("Pedro", "Peralta", 5, 39123456, "Calle false 123", 1, "7");
 
-            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
+            string fecha = DateTime.Now.ToString("dd_MM_yyyy");
             string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".bin";
 
             ArchivoBin<Alumno> serializador = new ArchivoBin<Alumno>();
@@ -75,7 +75,7 @@ namespace PruebasUnitarias
             Alumno a = new Alumno("Romina", "Martinez", 5, 39123456, "Calle false 123", 1, "7");
             Alumno b = null;
 
-            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
+            string fecha = DateTime.Now.ToString("dd_MM_yyyy");
             string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".bin";
 
             ArchivoBin<Alumno> serializador = new ArchivoBin<Alumno>();
@@ -97,7 +97,7 @@ namespace PruebasUnitarias
             Alumno a = new Alumno("Eduard", "Jimenez", 5, 39123456, "Calle false 123", 1, "7");
             Alumno b = null;
 
-            string fecha = DateTime.Now.ToString("dddd_MMMM_yyyy");
+            string fecha = DateTime.Now.ToString("dd_MM_yyyy");
             string nombreArchivo = a.Apellido + "_" + a.Nombre + "_" + fecha + ".bin";
 
             ArchivoBin<Alumno> serializador = new ArchivoBin<Alumno>();
